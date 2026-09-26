@@ -1,6 +1,6 @@
 # Cài các gói phụ thuộc
 sudo apt install -y ca-certificates curl gnupg
-
+sudo apt install open-vm-tools open-vm-tools-desktop
 # Thêm khóa GPG chính thức của Docker
 sudo install -m 0755 -d /etc/apt/keyrings
 sudo curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
